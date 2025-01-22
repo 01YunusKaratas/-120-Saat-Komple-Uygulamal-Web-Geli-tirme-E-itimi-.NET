@@ -1,0 +1,30 @@
+# Tüm .log dosyalarını hariç tut
+*.log
+
+# Sadece belirli bir log dosyasını dahil et
+!important.log
+
+# node_modules klasörünü hariç tut
+node_modules/
+
+# .env dosyasını hariç tut (genellikle hassas bilgiler içerir)
+.env
+
+# Tüm geçici dosyaları hariç tut
+*.tmp
+
+# IDE klasörlerini hariç tut (örneğin Visual Studio, JetBrains)
+.vscode/
+.idea/
+.png
+
+
+# Bin ve obj klasörlerini hariç tut (C# projeleri için)
+bin/
+obj/
+
+# Debugging ile ilgili klasör ve dosyaları hariç tut
+.DS_Store
+Thumbs.db
+# media klasöründekiler için 
+media/
