@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: blue;
+}
+input[type='number']{
+    border: 1px dotted purple;
+}
+
+input[type='checkbox']{
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: aqua;
+}
+#son>.container{
+    color: red;
+}
+
+li#li1{
+    color: blueviolet;
+}
+
+ul>li:nth-child(4){
+    margin: 50px;
+    border: 1px solid black;
+}

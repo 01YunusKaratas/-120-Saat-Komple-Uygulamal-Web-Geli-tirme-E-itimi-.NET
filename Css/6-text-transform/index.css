@@ -1,0 +1,19 @@
+#pre{
+    text-decoration: dashed underline red;
+}
+
+.col-md-4{
+    text-decoration: double overline blue;
+}
+
+#ul{
+    list-style-type:lower-roman ;
+    list-style-position: outside;
+
+    text-shadow: 20px 20px 10px  rgba(0, 0, 0, 0.8);
+}
+
+a{
+    cursor:grab; /*burda bunu vererek linkleri daha aktif hale geitrmiş oluyoruz*/
+
+}
