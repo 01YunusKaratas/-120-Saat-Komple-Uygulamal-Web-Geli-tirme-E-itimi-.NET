@@ -1,0 +1,22 @@
+.boxes{
+    margin: 40px auto;
+    width: 1200px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 44px;
+    font-weight: bold;
+    
+}
