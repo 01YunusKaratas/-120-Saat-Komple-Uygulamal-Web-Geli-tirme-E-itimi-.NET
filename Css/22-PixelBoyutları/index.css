@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(78, 139, 139);
+}
+
+
+
+
+/*Küçük laptop ekran görünümü*/
+@media screen and (max-width: 1024px) {
+    body{
+        background-color: rgb(112, 44, 44);
+    }
+}
+
+
+/*Tablet görünümü*/
+@media screen and (max-width: 768px) {
+    body{
+        background-color: rgb(64, 190, 87);
+    }
+}
+
+
+
+/*Telefon görünümü*/
+@media screen and (max-width: 480px) {
+    body{
+        background-color: rebeccapurple;
+    }
+}

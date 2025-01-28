@@ -1,25 +1,32 @@
 body{
     margin:0;
-   
+    padding: 0;
     box-sizing:border-box;
     background-color: whitesmoke;
+    width: 100vw;
 }
 
 .navbar{
     background-color: whitesmoke;
     border: 2px solid whitesmoke;
-    border-collapse: collapse;
     
     
 
+
 }
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #title1{
-    display: inline-block;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 #ul{
-    display: inline-block;
+    
     text-decoration: none;
     list-style-type: none;
     
@@ -37,6 +44,11 @@ body{
 
 .container{
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 .row{
     margin:50px;
@@ -57,9 +69,23 @@ body{
 }
 
 .container2{
-    margin-left: 50px;
-    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+
+}
+
+.container2 h1{
+    width: 500px;
+    text-align: center;
+}
+#divs{
     width: 600px;
+    padding: 24px 32px;
+    text-align: center;
 }
 
 .footer{
@@ -109,3 +135,66 @@ body{
     }
   }
   
+
+
+
+@media screen and (max-width: 1024px) {
+
+    #title1{
+        font-size: 18px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #ul{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        
+    }
+    li{
+        cursor: grab;
+    }
+    .container{
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #title1{
+        font-size: 16px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #ul{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        
+    }
+    li{
+        cursor: grab;
+    }
+  
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-left: 150px;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    
+}

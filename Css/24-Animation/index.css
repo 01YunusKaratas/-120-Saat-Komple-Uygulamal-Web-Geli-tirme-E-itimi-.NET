@@ -1,0 +1,42 @@
+.content{
+    margin:10% auto;
+    
+    border: 1px solid black;
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        /* animation-name: backgound;
+        animation-duration:4s;
+        animation-iteration-count:infinite;
+        animation-timing-function: ease-in; 
+         */
+
+    animation: backgound 4s ease-in-out infinite;
+
+}
+
+@keyframes backgound{
+    0%{
+        background-color: rgb(80, 124, 124);
+        transform: rotate(45deg);
+        width: 300px;
+    }   
+    25%{
+        background-color: rgb(192, 53, 81);
+        transform: rotate(90deg);
+        width: 800px;
+    }
+    50%{
+        background-color: brown;
+        transform: rotate(180deg);
+        width: 800px;
+    }
+    100%{
+        background-color: darkmagenta;
+        transform: rotate(270deg);
+        width: 500px;
+    }
+}
