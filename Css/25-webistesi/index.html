@@ -1,40 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .header {
-            display: flex;
-            justify-content: space-between;
-            background-color: pink;
-            height: 80px;
-            align-items: center;
-            padding: 0px 15px;
-        }
-
-        .headerlink {
-            margin-right: 10px;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="/Css/25-webistesi/index.css">
 </head>
-
 <body>
-    <div class="header">
-        <div>
-            <img src="1.jpg" width="32px" height="32px" alt="">
-        </div>
-        <div>
-            <a class="headerlink" href="">Home</a>
-            <a class="headerlink" href="">About</a>
-            <a class="headerlink" href="">Contact</a>
-        </div>
+   <nav class="navbar">
+    <div class="mobileIcon">
+        <img src="/Css/25-webistesi/icon.jpg" alt="" width="50px" height="30px">
     </div>
+    <div class="logo">
+        <img src="/Css/25-webistesi/1.jpg" alt="logo">
+        <h3>Yunus Emre Karataş</h3>
+    </div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>  
+   </nav>
+   <div class="banner" style="background-image: url(/Css/25-webistesi/banner.jpg);">
 
+    <div class="content">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad officiis quasi aliquid pariatur animi at, doloremque voluptates nihil molestiae repudiandae.</p>
+
+    </div> 
+</div>
+<div class="cards">
+    <article class="card">
+        <img src="/Css/25-webistesi/2.jpg" alt="" class="card-image">
+        <hr>
+        <div class="card-content">
+            <h3>Modern Web Tasarımı</h3>
+        </div>
+        <p class="card-explain">Web sitenizi modern ve şık hale getirmenin yolları.</p>
+        <a href="#" class="card-detail">Daha Fazla Oku</a>
+    </article>
+
+    <article class="card">
+        <img src="/Css/25-webistesi/3.jpg" alt="" class="card-image">
+        <hr>
+        <div class="card-content">
+            <h3>CSS İpuçları</h3>
+        </div>
+        <p class="card-explain">CSS ile harika stiller oluşturmanın püf noktaları.</p>
+        <a href="#" class="card-detail">Detayları Gör</a>
+    </article>
+
+    <article class="card">
+        <img src="/Css/25-webistesi/4.jpg" alt="" class="card-image">
+        <hr>
+        <div class="card-content">
+            <h3>JavaScript ile Etkileşim</h3>
+        </div>
+        <p class="card-explain">Web sitenizi dinamik hale getirmek için JS kullanımı.</p>
+        <a href="#" class="card-detail">Keşfet</a>
+    </article>
+</div>
+
+    <form>
+       <div class="form-content">
+        <div class="form">
+            <label for="name">Name</label>
+            <input type="text" name="name">
+        </div>
+        <div class="form">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname">
+        </div>
+        <div class="form">
+            <label for="password">Password</label>
+            <input type="text" name="password">
+        </div>
+        <div class="form">
+           <button type="button">Gönder</button>
+        </div>
+       </div>
+        
+    </form>
+    
+    <footer class="footer">
+        <p>© 2025 Tüm Hakları Saklıdır</p>
+    </footer>
+    
 </body>
-
 </html>

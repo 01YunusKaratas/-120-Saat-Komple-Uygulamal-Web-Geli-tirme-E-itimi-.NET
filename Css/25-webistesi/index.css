@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 16px 32px;
+    background-color: pink;
+    min-height: 90px;
+   
+}
+.mobileIcon{
+    display: none;
+}
+.logo img{
+    width: 32px;
+    height: 32px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logo h3{
+    margin-left: 20px;
+    font-size: 22px;
+}
+.nav-links a{
+    margin-right: 50px;
+    padding: 20px;
+    font-size: 18px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    cursor: grab;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.banner{
+    height: 400px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.content{
+    position: absolute; /*Dışardaki dive göre ayar çekmiş olduk burada*/
+    text-align: center;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+
+}
+.banner h2{
+    font-size: 32px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: row;
+    min-height: 800px;
+}
+
+.card{
+    width: 400px;
+    border-radius: 20px;
+    border:3px solid black;
+    text-align: center;
+    margin: 10px;
+    height: 400px;
+}
+.card-image{
+    width: 100%;
+    border-radius: 17px;
+    text-align: center;
+    margin-bottom:5px;
+}
+form{
+    background-color: rgb(160, 147, 147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;
+
+}
+.form-content{
+    border: 1px solid black;
+    padding: 100px;
+    border-radius: 20px ;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    margin: 20px;
+    text-align: left;
+}
+.form label{
+    width: 300px;
+
+}
+.form input{
+    width: 200px;
+    height: 20px;
+}
+
+
+.footer{
+    max-height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+.footer p{
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    
+}
+@media screen and (max-width: 480px) {
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        width: auto;
+        
+    }
+    a{
+        margin:0px;
+        padding: 0px;
+    }
+    .mobileIcon{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    
+    .banner{
+        background-position:top;
+        
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items:flex-start;
+        box-sizing: border-box;
+        flex-direction: column;
+        width: 200px;
+        margin: 0px;
+
+    }
+    .card{
+        width: 300px;
+    }
+    .form{
+        
+        text-align: center;
+    }
+    .form-content{
+        box-sizing: border-box;
+        padding: 50px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;;
+    }
+}
