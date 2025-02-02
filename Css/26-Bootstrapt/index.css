@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.row{
+   margin: auto;
+   text-align: center;
+}
+.frt{
+    border: 2px solid red;
+    
+    height: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+.btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height:50px;
+    font-size: 10px !important;
+}
