@@ -1,0 +1,20 @@
+.banner{
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    
+    min-height: 600px;
+}
+@media screen and (max-width: 768px) {
+
+    #toastID{
+        position: fixed;
+        bottom: 0px;
+        align-items: center;
+        width: 100%;
+
+    }
+    
+}
