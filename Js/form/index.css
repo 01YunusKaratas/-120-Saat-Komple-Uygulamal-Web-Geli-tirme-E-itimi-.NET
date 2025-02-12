@@ -1,0 +1,19 @@
+.container{
+    margin: 50px auto;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.error{
+    border: 1px solid red;
+    text-decoration: underline red;
+}
+
+.success{
+    border: 1px solid ;
+    text-decoration: none;
+}
